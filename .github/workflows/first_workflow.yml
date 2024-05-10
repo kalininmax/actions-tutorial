@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Node.js environment
-        uses: actions/setup-node@latest
+        uses: actions/setup-node@v4
         with:
           node-version: latest
       - name: Check node version
